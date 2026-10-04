@@ -1,0 +1,22 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import com.example.demo.entity.*;
+
+public class UserService {
+
+	private static List list = new ArrayList<>();
+	static {
+		User u = new User("Ram");
+		list.add(u);
+		u = new User("Sita");
+		list.add(u);
+		u=new User("Gita");
+		list.add(u);
+	}
+	public list getList() {
+		return list;
+	}
+	
+}

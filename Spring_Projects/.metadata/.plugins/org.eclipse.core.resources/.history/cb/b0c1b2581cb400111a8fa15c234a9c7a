@@ -1,0 +1,5 @@
+package com.ducat.controller;
+
+public class UserController {
+
+}

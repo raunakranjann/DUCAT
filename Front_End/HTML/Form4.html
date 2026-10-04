@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <label>Gender</label>
+
+        <input type="radio" name="gender" id="male" value="Male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="Other" />
+        <label for="other">Other</label>
+      </div>
+
+      <div>
+        <label>Subject</label>
+
+        <input type="checkbox" name="mern" id="mern" checked />
+        <label for="mern">Mern</label>
+
+        <input type="checkbox" name="mean" id="mean" />
+        <label for="mean">Mean</label>
+
+        <input type="checkbox" name="python" id="python" checked />
+        <label for="python">Python</label>
+
+        <input type="checkbox" name="java" id="java" />
+        <label for="java">Java</label>
+
+        <input type="checkbox" name="dataStructure" id="dataStructure" />
+        <label for="dataStructure">Data Structure</label>
+
+        <input type="checkbox" name="dotnet" id="dotnet" />
+        <label for="dotnet">Dotnet</label>
+      </div>
+
+      <input type="hidden" name="formName" value="contactFom" />
+
+      <div>
+        <label>Color</label>
+        <input type="color" name="color" />
+      </div>
+
+      <div>
+        <label>Range</label>
+        <input
+          type="range"
+          name="range"
+          id="range"
+          oninput="fun()"
+          min="-1000"
+          max="1000"
+          step="100"
+        />
+        <span id="rangeValue"></span>
+      </div>
+
+      <div>
+        <label>Image</label>
+        <input
+          type="image"
+          src="./Images/Ducatsector_16.jpeg"
+          alt=""
+          height="100px"
+          width="150px"
+        />
+      </div>
+
+      <div>
+        <label> Pic</label>
+        <input type="file" name="pic" multiple />
+      </div>
+
+      <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script>
+      var range = document.querySelector("#range");
+      var rangeValue = document.querySelector("#rangeValue");
+
+      rangeValue.innerHTML = range.value;
+
+      function fun() {
+        rangeValue.innerHtml = range.value;
+      }
+    </script>
+  </body>
+</html>

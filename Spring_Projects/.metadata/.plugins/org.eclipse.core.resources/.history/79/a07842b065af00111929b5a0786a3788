@@ -1,0 +1,6 @@
+package com.example.demo.service;
+
+public class UserService {
+
+	private static List list = new ArrayList<>();
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form
+      id="myform"
+      class="test smaple example"
+      action=""
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="sample example"
+          placeholder="Full Name"
+          required
+          minlength="3"
+          maxlength="30"
+        />
+      </div>
+
+      <br />
+      <div>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+<!-- 
+
+ ID attribute => It is basically used to select an element in css 
+  or javascript to apply styles and script respectively 
+  this attribute is rarely used in backend but most important in frontend
+
+  Id attribute value must be unique in each element in a document
+  
+  Class => Class attribute is used to select multiple elements in css or 
+  javascript to apply styles and scripts respectively. 
+  we can use a single class in multiple elements as well as we can use 
+  multiple class in a single element.
+
+  Action => Action attribute is used to specify (URI) uniform resource identifier of that 
+  particular webpage or backend API where we want to submit form data after submission.
+  Keep it blank to submit form data on current (URI)
+
+  Method => 
+  The HTTP method that the browser uses to submit the form. Possible values are:
+
+post: Corresponds to the HTTP POST method ; form data are included in the body of the form and sent to the server.
+get: Corresponds to the HTTP GET method; form data are appended to the action attribute URI with a '?' as separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters.
+dialog: Use when the form is inside a <dialog> element to close the dialog when submitted.
+  
+
+    Enctype => When the type of the method attribute is post, 
+    enctype is the MIME type of content that is used to submit 
+    the form to the server. Possible values are :
+     - application/x-www-form-urlencoded : The default value if the attribute 
+     is not specified.
+     - multipart/form-data : The value used for an <input> element with 
+     the type attribute set to "file"
+     - text/plain : Html5
+
+
+
+     Div => The div element has no special meaning at all. It represents
+     its children. It can be used with the class, lang, and title attributes 
+     to mark up semantics common to a group of consecutive elements.
+
+     Label => Label element is use to specify a display message with input element.
+
+     for => for attribute is used in a labeled controlled form so for attribute value must 
+     be same as id attribute of the input element.
+
+     Input Types =>
+     text        email   search    password  
+     number      url     tel       reset
+     submit      button  date       time  
+     week        month   datetime-locale radio
+     checkbox    hidden  image   file  
+     color       range   
+
+
+     Name =>
+      Name attribute is works like a placeholder can be used to get input from input fields 
+      in backend technologies. this attribute value must be unique in each elements in a form.
+
+      Placeholder =>It is use to provide a temporary message in input element.
+
+      The type of the button. Possible values are :
+      Submit : The button submits the form data to the server. This is the default if the attribute is not specified, 
+      or if the arrtibute is dynamically changed to an empty or invalid value.
+      reset : The button resets all the controls to their initial values.
+      button : The button has no default behavior. It can have client-side scripts associated 
+      with the element's events, which are triggered when the events occur. 
+
+ -->
