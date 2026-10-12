@@ -11,6 +11,7 @@ build/
 *.jar
 *.war
 
+
 # IDE Specific settings
 .idea/
 .vscode/
@@ -19,3 +20,7 @@ build/
 *.njsproj
 *.sln
 *.swp
+
+
+# Eclipse / Spring Tool Suite workspace settings
+.metadata/
