@@ -1,8 +1,0 @@
-package com.ducat.controller;
-
-public class LoginController {
-
-	public String loginPage() {
-		return "login";
-	}
-}
