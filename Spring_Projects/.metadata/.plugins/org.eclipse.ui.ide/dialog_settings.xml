@@ -32,7 +32,8 @@
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_SKIP_DOT_FOLDERS" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="C:\Users\rauna\Documents\Spring_Projects\First_Spring_Project"/>
+			<item value="D:\DUCAT\Spring_Projects\Rest_Api_Demo"/>
+			<item value="D:\DUCAT\Spring_Projects"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="204"/>

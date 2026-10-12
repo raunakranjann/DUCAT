@@ -1,0 +1,20 @@
+package com.ducat.controller;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestParam;
+
+public class LoginController {
+
+	public String loginPage() {
+		return "login";
+	}
+	public String login(@RequestParam String username, @RequestParam String password, Model model) {
+		if(username.equals("sachin") && password.equals("cbi"))
+		{
+			return "Home";
+		}
+		else {
+			model.addAttribute("error","Invalid username or password");
+		}
+	}
+}
