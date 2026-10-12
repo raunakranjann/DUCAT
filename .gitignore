@@ -1,0 +1,21 @@
+# Front-End (Node / React / Vue)
+node_modules/
+dist/
+build/
+.env
+
+# Spring Boot / Java / Maven / Gradle
+target/
+.gradle/
+build/
+*.jar
+*.war
+
+# IDE Specific settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
