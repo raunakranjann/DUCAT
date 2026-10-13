@@ -11,12 +11,14 @@
             "id": "ec20f5c8c703f525",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "01_JAVA/Part_01.md"
+                "file": "01_JAVA/Core Java.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Part_01"
+              "icon": "lucide-file",
+              "title": "Core Java"
             }
           }
         ]
@@ -164,16 +166,6 @@
             }
           },
           {
-            "id": "f4701dd65d83a758",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
-            }
-          },
-          {
             "id": "48a51b3e28ab708f",
             "type": "leaf",
             "state": {
@@ -207,12 +199,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e4619bb71801cf3",
+  "active": "ec20f5c8c703f525",
   "lastOpenFiles": [
+    "02_Spring_Boot/Spring Boot.md",
+    "01_JAVA/Core Java.md",
+    "01_JAVA/Part_01.md",
     "04_HTML/HTML_Theory.md",
     "03_DSA/02_Linkedlist.md",
     "03_DSA/01_Array.md",
-    "01_JAVA/Part_01.md",
     "02_Spring_Boot/Part_02_Spring_Boot.md",
     "Spring_Boot/Rest_API.md",
     "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.md",
@@ -248,8 +242,6 @@
     "03_Resources/Internship_Prerequisites/04_Direct_Chat_Follow_up_Escalation.md",
     "03_Resources/Internship_Prerequisites/04_Query_Direct_Chat_01.md",
     "03_Resources/Internship_Prerequisites/05_Feedback.md",
-    "03_Resources/Encyclopedia/Knowledge_Encyclopedia_.md",
-    "YouTube/Drawing/skull.excalidraw.md",
     "99_Attachments/PasteImages/HTTP_and_HTTPS.png",
     "03_Resources/Internship_Prerequisites/Attachments/Docker_flow.png",
     "04_Canvases/Java_Spring_Boot.canvas",
