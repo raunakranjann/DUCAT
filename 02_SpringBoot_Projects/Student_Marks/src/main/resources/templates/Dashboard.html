@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Result Dashboard</title>
+
+    <style>
+      h1{
+        text-align: center;
+       }
+	  #grade{
+		text-align: center;
+	
+		border: 4px dashed tomato;
+		width:auto;
+	  }
+	  #grade>p{
+		font-family: cursive;
+	  }
+	  
+	  
+    </style>
+  </head>
+  <body>
+    <h1>Student Dashboard</h1>
+
+   Course: <span th:text="${CourseName}">Course
+    </span>
+
+	
+    <span style=" float:right;" th:text="${StudentName}">Student Name
+		
+	</span>
+
+	<br>
+	<br>
+	
+    
+    <div id="grade" style="margin-top: 60px;">
+      <p th:text="${ObtainedGrade}">Grade Not Available</p>
+    </di>
+  </body>
+</html>
