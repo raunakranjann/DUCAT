@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\DUCAT\\.git;
-GitRepositoriesView.GitDirectories.relative=D\:\\DUCAT\\.git;
+GitRepositoriesView.GitDirectories=/mnt/3425-B92B/DUCAT/02_SpringBoot_Projects/\\DUCAT\\.git;\:/mnt/3425-B92B/DUCAT/.git\:/mnt/3425-B92B/DUCAT/02_SpringBoot_Projects/D\:
+GitRepositoriesView.GitDirectories.relative=\\DUCAT\\.git;\:/mnt/3425-B92B/DUCAT/.git\:D\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

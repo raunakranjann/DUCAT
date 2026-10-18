@@ -21,19 +21,19 @@
     </style>
   </head>
   <body>
-    <form action="/student" method="post">
+    <form id="studentForm" action="/student" method="post">
       Student Name : 
       <br>
-      <input type="text" name="studentname" placeholder="Enter the Student Name..." required/> <br />
+      <input type="text" id="studentname" name="studentname" placeholder="Enter the Student Name..." required/> <br />
       <br>
       Course : 
       <br>
-      <input type="text" name="coursename" placeholder="Enter the Course" required/> <br />
+      <input type="text" id="coursename" name="coursename" placeholder="Enter the Course" required/> <br />
       <br>
 
       Total Marks :
       <br>
-      <input type="number" name="studentmarks" min="0" max="100" placeholder="Enter the marks..." required />
+      <input type="number" id="studentmarks" name="studentmarks" min="0" max="100" placeholder="Enter the marks..." required />
 
       <br>
       <br>
@@ -42,5 +42,49 @@
     </form>
 
     <p th:text="${message}"></p>
+	
+<div id="result" style="display: none;">
+</div>
+	
+	<script>
+		 const form = document.getElementById("studentForm");
+		 const resultDiv = document.getElementById("result");
+		 
+		 
+		 form.addEventListener("submit", function(event){
+			
+			event.preventDefault();
+			
+			
+			const name = document.getElementById("studentname").value;
+			const course = document.getElementById("coursename").value;
+			const marks = Number(document.getElementById("studentmarks").value);
+			
+			let grade = "";
+			if(marks >= 90){
+				grade = "A";
+			}else if(marks >=50){
+				grade ="B";
+				
+			}else {
+				grade = "Fail";
+			}
+			
+			
+			resultDiv.style.display="block";
+			resultDiv.innerHTML = `
+			
+			
+			<p><strong>Student Name :</strong> ${name}</p>
+			<p><strong>Course :</strong> ${course}</p>
+			<p><strong>Grade :</strong> ${grade}</p>
+			
+			
+			`;
+			});
+			
+		 
+
+	</script>
   </body>
 </html>

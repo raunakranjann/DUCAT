@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b1ca38873677fbf9",
+        "id": "5475a07c16651173",
         "type": "tabs",
         "children": [
           {
-            "id": "ec20f5c8c703f525",
+            "id": "b4dfa7e596175672",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "01_JAVA/Core Java.md",
-                "mode": "source",
-                "source": false
+                "file": "03_DSA/02_Linkedlist.md"
               },
-              "icon": "lucide-file",
-              "title": "Core Java"
+              "icon": "excalidraw-icon",
+              "title": "02_Linkedlist"
             }
           }
         ]
@@ -80,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289
+    "width": 289,
+    "collapsed": true
   },
   "right": {
     "id": "81c819983eb714b5",
@@ -199,15 +198,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ec20f5c8c703f525",
+  "active": "b4dfa7e596175672",
   "lastOpenFiles": [
-    "02_Spring_Boot/Spring Boot.md",
-    "01_JAVA/Core Java.md",
-    "01_JAVA/Part_01.md",
-    "04_HTML/HTML_Theory.md",
-    "03_DSA/02_Linkedlist.md",
-    "03_DSA/01_Array.md",
     "02_Spring_Boot/Part_02_Spring_Boot.md",
+    "02_Spring_Boot/Spring Boot.md",
+    "01_JAVA/Part_01.md",
+    "03_DSA/02_Linkedlist.md",
+    "04_HTML/HTML_Theory.md",
+    "03_DSA/01_Array.md",
+    "01_JAVA/Core Java.md",
     "Spring_Boot/Rest_API.md",
     "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.md",
     "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.svg",

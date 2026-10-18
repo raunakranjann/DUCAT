@@ -196,7 +196,7 @@
         "value": true
       },
       "Should close after adding page": {
-        "value": false
+        "value": true
       },
       "Lock frame after it is created": {
         "value": true
@@ -221,7 +221,9 @@
   "latexPreambleLocation": "preamble.sty",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
-  "pinnedScripts": [],
+  "pinnedScripts": [
+    "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.md"
+  ],
   "sidepanelTabs": [],
   "customPens": [
     {

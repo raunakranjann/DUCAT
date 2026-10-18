@@ -1,0 +1,36 @@
+.first>h1{
+    background-color: green;
+    color: white;
+}
+.third>p{
+    color: blue;
+}
+
+.ptag, .th {
+    background-color: red;
+}
+
+.th{
+    background-color: purple;
+}
+
+p:hover{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+body{
+    background-color: gray;
+   
+
+}
+
+/* *{
+    margin: 0;
+} */
+
+
+h1{
+    
+}
