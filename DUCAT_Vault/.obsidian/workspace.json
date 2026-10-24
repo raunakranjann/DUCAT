@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5475a07c16651173",
+        "id": "8b081c2cbb98dbde",
         "type": "tabs",
         "children": [
           {
-            "id": "b4dfa7e596175672",
+            "id": "4362af77af4202a7",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -198,14 +198,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b4dfa7e596175672",
+  "active": "4362af77af4202a7",
   "lastOpenFiles": [
+    "03_DSA/01_Array.md",
+    "03_DSA/02_Linkedlist.md",
     "02_Spring_Boot/Part_02_Spring_Boot.md",
     "02_Spring_Boot/Spring Boot.md",
     "01_JAVA/Part_01.md",
-    "03_DSA/02_Linkedlist.md",
     "04_HTML/HTML_Theory.md",
-    "03_DSA/01_Array.md",
     "01_JAVA/Core Java.md",
     "Spring_Boot/Rest_API.md",
     "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.md",

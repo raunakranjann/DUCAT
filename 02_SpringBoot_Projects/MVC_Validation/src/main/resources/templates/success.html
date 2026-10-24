@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Successful</title>
+    <style>
+        .success-box {
+            border: 1px solid #d4edda;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="success-box">
+        <!-- Displays the global flash attribute message (e.g., "Registration successful!") -->
+       		<h2 th:text="${message}">Success Message Goes Here</h2>
+    </div>
+
+   
+    <br>
+    <!-- Navigation action back to the registration page or a login endpoint -->
+    <a th:href="@{/register}"><button type="button">Back to Registration</button></a>
+
+</body>
+</html>
