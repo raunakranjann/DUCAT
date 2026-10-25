@@ -1,9 +1,12 @@
-package extendkeyword;
+package p1;
 
-public class base{
+public class base
+{
 
-public void show(){
-System.out.println("This is my base class in Inner Package");
+public void show()
+{
+
+System.out.println("This is Base Class in Within_Package");
+
 }
-
 }

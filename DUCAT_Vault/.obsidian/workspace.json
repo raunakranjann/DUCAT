@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "03_DSA/02_Linkedlist.md"
+                "file": "02_Spring_Boot/Part_02_Spring_Boot.md"
               },
               "icon": "excalidraw-icon",
-              "title": "02_Linkedlist"
+              "title": "Part_02_Spring_Boot"
             }
           }
         ]
@@ -200,11 +200,11 @@
   },
   "active": "4362af77af4202a7",
   "lastOpenFiles": [
-    "03_DSA/01_Array.md",
-    "03_DSA/02_Linkedlist.md",
-    "02_Spring_Boot/Part_02_Spring_Boot.md",
     "02_Spring_Boot/Spring Boot.md",
+    "03_DSA/02_Linkedlist.md",
     "01_JAVA/Part_01.md",
+    "03_DSA/01_Array.md",
+    "02_Spring_Boot/Part_02_Spring_Boot.md",
     "04_HTML/HTML_Theory.md",
     "01_JAVA/Core Java.md",
     "Spring_Boot/Rest_API.md",

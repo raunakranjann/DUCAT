@@ -1,13 +1,12 @@
-package outside_package;
+package p1;
 
-import extendkeyword.base;
+public class base
+{
 
-public class child extends base{
+public void show()
+{
 
-public static void main(String arg[]){
+System.out.println("This is Base Class in Within_Package");
 
-child c = new child();
-
-c.show();
 }
 }
